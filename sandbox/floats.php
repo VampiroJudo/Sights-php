@@ -13,5 +13,16 @@
 		Floor: <?php echo floor($float); ?><br />
 		<br />
 
+		<?php $integer = 3; ?>
+
+		<?php echo "Is {$integer} integer?" . is_int($integer); ?><br />
+
+		<?php echo "Is {$float} integer?" . is_int($float); ?><br />
+		<br />
+		<?php echo "Is {$integer} float?" . is_float($integer); ?><br />
+		<?php echo "Is {$float} float?" . is_float($float); ?><br />
+		<br />
+		<?php echo "Is {$integer} numeric?" . is_numeric($integer); ?><br ?>
+		<?php echo "Is {$float} numeric?" . is_numeric($float); ?> <br />
 	</body>
 </html>
