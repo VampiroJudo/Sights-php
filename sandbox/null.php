@@ -15,7 +15,18 @@
 		var1 is set? <?php echo isset($var1); ?><br />
 		var2 is set? <?php echo isset($var2); ?><br />
 		var3 is set? <?php echo isset($var3); ?><br />
-	
+		<br />
+		
+		<?php //empty: "", null, 0, 0.0, "0",false, array() ?>
+
+		<?php $var3 = "0"; ?>
+
+		var1 empty? <?php echo empty($var1); ?><br />
+		var2 empty? <?php echo empty($var2); ?><br />
+		var3 empty? <?php echo empty($var3); ?><br />
+
+		<?php //empty is the leading cause of bugs in PHP ?>
+
 
 	</body>
 </html>
