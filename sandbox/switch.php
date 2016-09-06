@@ -47,6 +47,7 @@
 		}
 		echo "{$year} is the year of the {$zodiac}.<br />";
 		?>
+		<br />
 
 		<?php //case with multiple values 
 
