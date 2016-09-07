@@ -32,6 +32,19 @@
 			//end: move the pointer to the last element
 			end($ages);
 			echo "6: " . current($ages) . "<br />";
+		?> 
+		<br />
+
+		<?php
+			reset($ages);
+			// while loop that moves the array pointer
+			//similar to foreach
+			while($age = current($ages)) {
+				echo $age . ", ";
+				next($ages);
+			}
+
+
 		?>
 	
 
