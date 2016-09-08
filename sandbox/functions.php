@@ -20,12 +20,6 @@
 
 		say_hello_to("World");
 		say_hello_to("Everyone");
-
-
-		function say_hello_loudly() {
-				echo "We can't redefine a function!<br />";
-		}
-
 		
 		?>
 	
