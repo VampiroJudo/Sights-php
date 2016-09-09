@@ -13,6 +13,8 @@
 				echo paint();
 				echo paint("bedroom", "blue");
 				echo paint("bedroom", null);
+				
+
 		?>
 
 
