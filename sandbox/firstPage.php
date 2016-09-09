@@ -5,7 +5,10 @@
 	</head>
 	<body>
 
-	<a href="secondPage.php">Second Page</a>
+		<?php $link_name = "Second Page"; ?>
+		<?php $id = 2; ?>
+		
+		<a href="secondPage.php? id=<?php echo $id; ?>"><?php echo $link_name ?></a>
 
 	</body>
 </html>
