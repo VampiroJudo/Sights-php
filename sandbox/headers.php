@@ -1,5 +1,6 @@
 <?php
 	header("HTTP 1.1/ 404 Not Found");
+	header("X-Powered-By: none of your business");
 ?>
 
 
@@ -9,6 +10,12 @@
 		<title>Headers</title>
 	</head>
 	<body>
+
+	<pre>
+		<?php
+			print_r(headers_list());
+		?>
+	</pre>
 			
 
 	</body>
