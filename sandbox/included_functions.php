@@ -1,11 +1,7 @@
 <?php
-	include("included.php");
+	function hello($name){
+		return "Hello {$name}!";
+	}
 ?> 
 
-	The header has been included.
-
-
 	
-
-	</body>
-</html>
