@@ -8,7 +8,7 @@
 	<?php
 
 	// * presence
-	$value = "x";
+	$value = "0";
 	if (!isset($value) || empty($value)) {
 		echo "Validation failed.<br />";
 	}
