@@ -6,7 +6,7 @@
 	//set_cookie($name, $value, $expire);
 	//$set_cookie($name);
 	// set_cookie(:$name, null, $expire);
-	set_cookie($nam4, $value, time() - 3600);
+	///set_cookie($nam4, $value, time() - 3600);
 ;?> 
 
 
